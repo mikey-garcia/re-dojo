@@ -10,5 +10,5 @@ jobs:
     steps:
       - uses: pwncollege/dojo-update@v1
         with:
-          dojo: re-basics
+          dojo: precore2k26-re-dojo
           update_code: ${{ secrets.UPDATE_CODE }}
