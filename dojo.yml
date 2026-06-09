@@ -1,0 +1,12 @@
+id: precore2k26-re-dojo
+name: Precore2k26 RE Dojo
+description: Intro reverse engineering challenges.
+type: hidden
+
+modules:
+  - id: re-basics
+    name: RE Basics
+    challenges:
+      - id: client-server-structs
+        name: Client/Server Struct Packet
+        description: Reverse the client and recover the six values.
