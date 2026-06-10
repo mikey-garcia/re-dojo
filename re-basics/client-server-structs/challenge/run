@@ -1,10 +1,10 @@
 #!/bin/bash
 
-/challenge/server &
+/challenge/challenge/server &
 SERVER_PID=$!
 
 sleep 1
 
-/challenge/client
+/challenge/challenge/client
 
 wait $SERVER_PID
